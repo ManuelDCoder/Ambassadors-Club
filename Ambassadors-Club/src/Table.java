@@ -21,6 +21,7 @@ public class Table {
         table.setVisible(true);
         table.setContentPane(new Table().tablePanel);
         table.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        table.setLocation(500,200);
         table.setSize(400, 400);
     }
 }
